@@ -1,0 +1,59 @@
+@import "vars";
+
+.works {
+    padding-top: 36px;
+    padding-bottom: 63px;
+
+    &__title {
+        margin-bottom: 36px;
+        font-family: $main;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 35px;
+        text-align: center;
+        text-transform: uppercase;
+        color: $accent;
+    }
+    &__list {
+        padding-left: 0;
+        list-style: none;
+        display: grid;
+        grid-template-columns: repeat(3, 353.4px);
+        grid-gap: 25px;
+    }
+
+    &__img {
+        width: 353.4px;
+        margin-bottom: 25px;
+    }
+
+    h4 {
+        margin-bottom: 5px;
+        font-family: $secondary-font;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 24px;
+        text-transform: capitalize;
+        color: $accent;
+    }
+
+    h5 {
+        margin: 0 0 13px 0;
+        font-family: $secondary-font;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 13px;
+        line-height: 20px;
+        text-transform: capitalize;
+        color: #adadad;
+    }
+
+    p {
+        margin-bottom: 0;
+        font-family: $third;
+        font-size: 14px;
+        line-height: 28px;
+        color: $secondary;
+    }
+}

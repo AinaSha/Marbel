@@ -1,0 +1,89 @@
+@import "vars";
+
+.footer {
+    padding-top: 45px;
+    padding-bottom: 45px;
+    background-color: #1f1f1f;
+       
+    &__list {
+        padding-left: 0;
+        list-style: none;
+        display:grid;
+        grid-template-columns: 255px 257px 234px 234px;
+        grid-gap:26.5px;
+        
+        }
+   
+    &__title {
+        font-family: $main;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;
+        text-transform: uppercase;
+        color: #6C6C6C;
+    }
+
+    &__txt {
+        font-family: $third;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+        color: #CACACA;
+    }
+
+    &__card-link {
+        text-decoration:none;
+        font-family:  $third;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+        color: #CACACA;
+    }
+    
+    &__card-list {
+        padding-left: 0;
+        list-style: none;
+
+        
+    }
+    &__twit-icon {
+        list-style-image: url(/img/Vector.png);
+        font-size: 25px;
+        fill: #A89574;
+    }
+    &__contact {
+        font-family: $third;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+    
+    &__card-item {
+       margin-bottom: 31px;
+    }
+    hr {
+        opacity: 0.5;
+        margin-bottom: 45px;
+    }
+
+    &__list-icon:first {
+        list-style-image: url(/img/Vector-location.jpg);
+    }
+
+    &__copy {
+        font-family: $third;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 22px;
+        color: #CACACA;
+    }
+   
+}
+

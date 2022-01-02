@@ -1,0 +1,40 @@
+@import "vars";
+
+.feature {
+    padding: 82px 0 39px 0;
+   
+   
+    &__img {
+        position: relative;
+        top:0;
+        left:33.3%;
+        width: 80px;
+        height: 80px;
+    }
+   &__subtitle {
+       font-family: $secondary-font;
+       font-weight: bold;
+       font-size: 18px;
+       line-height: 24px;
+       color: $accent;
+       text-align: center;
+   }
+   &__txt {
+       font-family: $third;
+       font-size: 14px;
+       line-height: 27px;
+       text-align: center;
+       color: #000;
+   }
+
+   &__list {
+       padding-left: 0;
+       list-style: none;
+       display: grid;
+       grid-template-columns: repeat(4, 257px);
+       grid-gap: 31px;
+   }
+
+   
+   
+}
